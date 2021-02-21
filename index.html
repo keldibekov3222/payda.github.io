@@ -5,8 +5,6 @@
 	<title>Nomad</title>
 	<link rel=" stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
 </head>
 <body>
 <div class="uk-offcanvas-content">
@@ -43,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <nav class="uk-hidden@m uk-navbar-container uk-box-shadow-small mob-nav" uk-navbar="" uk-sticky="">
+        <nav class="uk-hidden@s uk-navbar-container uk-box-shadow-small mob-nav" uk-navbar="" uk-sticky="">
             <div class="uk-navbar-left">
                 <a class="logo-item" href="#" uk-scroll="">
                     <img src="img/logo.svg" class="moblogo" alt="Профи Окон">
@@ -59,17 +57,17 @@
 
 
         </div>
-       <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true; flip: true;">
+       <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true; flip: true;"  >
             <div class="uk-offcanvas-bar">
                 <ul class="uk-nav uk-nav-default">
-                    <li><a href="#services">Услуги</a></li>
-                    <li class=""><a href="#portfolio">Портфолио</a></li>
-                    <li class=""><a href="#partners">Партнеры</a></li>
-                    <li class=""><a href="#price">Цены</a></li>
-                    <li class=""><a href="#contacts">Контакты</a></li>
+                    <li><a href="#services" class="ee"   >Услуги</a></li>
+                    <li class=""><a class="ee" href="#portfolio">Портфолио</a></li>
+                    <li class=""><a class="ee" href="#partners">Партнеры</a></li>
+                    <li class=""><a class="ee" href="#price">Цены</a></li>
+                    <li class=""><a class="ee" href="#contacts">Контакты</a></li>
                     <div style=" margin-top: 10px;">
-                                                <a class="uk-flex ffs" href="tel:+996 555 677889"><img width="25px" style="margin-right: 10px;" src="img/call.svg" alt="Nomad"> +996 555 555 555</a><br>
-                    <a class="uk-flex ffs" href="tel:+996 501 961100"><img width="25px" style="margin-right: 10px;" src="img/call.svg" alt="Nomad"> +996 555 555</a><br>
+                                                <a class="uk-flex ee ffs" href="tel:+996 555 677889"><img width="25px" style="margin-right: 10px;" src="img/call.svg" alt="Nomad"> +996 555 555 555</a><br>
+                    <a class="uk-flex ee ffs" href="tel:+996 501 961100"><img width="25px" style="margin-right: 10px;" src="img/call.svg" alt="Nomad"> +996 555 555</a><br>
                                 </div>
                 </ul>
 
@@ -82,10 +80,10 @@
         </div>
     </div>
 <section class="bgc" >
-        <div class="uk-container uk-container-medium main-card">
-            <div class="uk-flex uk-grid-medium" uk-grid> 
-                <div>
-                    <div class="card-1 uk-card uk-card-default   uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <div class="uk-container main-card">
+            <div class="uk-child-width-1-2@m" uk-grid> 
+                
+                    <div class="card-1  uk-card uk-card-default   uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                         <h3 class="uk-h2 uk-text-bold">Nomad Reline Service</h3>
                         <div class="uk-flex uk-grid-medium" uk-grid> 
                             <div class="card-left txt">
@@ -96,7 +94,7 @@
                                         <img class="about-img" src="img/image003.jpg">
                                 </div>
                             </div>
-                            <div class="card-right">
+                            <div class="card-right ">
                                 <img class="people" src="img/people.svg">
                                 <p class="uk-text-center">Мэтью Хюб</br>
                                      Ген-директор
@@ -108,8 +106,8 @@
                             </div>
                         </div>   
                     </div>
-                </div>
-                <div>
+                
+                
                     <div class="card-2  uk-card uk-card-default uk-card-small uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                         <img class="mission uk-align-center" src="img/1.svg">
                         <div class="txt uk-text-center">
@@ -125,7 +123,7 @@
                         </div>
 
                     </div>
-                </div>
+                
 
             </div>   
         </div>
@@ -377,6 +375,7 @@
                 </div>
             </div>
         </div>
-
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
 </body>
 </html>
