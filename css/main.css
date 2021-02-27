@@ -178,3 +178,27 @@ dt {
 	margin-bottom: 50px;
 }
 
+
+@media (max-width: 400px) {
+	
+	.about-img {
+		margin: 20px auto; 
+	}
+
+	.uk-h1 {
+		font-size: 27px;
+	}
+	.decor {
+		width: 80px;	
+	}
+	.decor1 {
+		width: 80px;	
+	}
+}
+
+@media (max-width: 510px) {
+	.a1 {
+		display: none;
+	}
+}
+
