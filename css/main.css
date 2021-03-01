@@ -97,6 +97,7 @@
 }
 
 .txt {
+	color: #222;
 	font-size: 16px;
 }
 
@@ -176,6 +177,7 @@ dt {
 
 .price-txt {
 	margin-bottom: 50px;
+	color: #333;
 }
 
 
