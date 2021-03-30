@@ -3,6 +3,19 @@
 	width: 150px;
 }
 
+.active {
+	box-shadow: 0 0 10px rgba(244,241,241,0.5);
+	/*border: 2px solid #F65814!important;*/
+}
+.passive {
+ opacity: 0.6;
+ transition: opacity 0.1s linear;
+}
+.passive:hover {
+	opacity: 1;
+	box-shadow: 0 0 10px rgba(244,241,241,0.5);
+}
+
 .logo-item {
 	max-width: 120px;
 	width: 100px;
@@ -76,6 +89,7 @@
 }
 /*NAVIGATION*/
 .bgc {
+	margin-bottom: -1px;
 	background-color: #CDCDCD;
 }
 .main-card {
